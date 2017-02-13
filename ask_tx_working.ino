@@ -1,8 +1,10 @@
-// ask_transmitter.pde
+
 // -*- mode: C++ -*-
-// Simple example of how to use RadioHead to transmit messages
-// with a simple ASK transmitter in a very simple way.
-// Implements a simplex (one-way) transmitter with an TX-C1 module
+// Simple example of how to use RadioHead to transmit messages - I had to use the existing example sketch as a starting point
+// as a fresh sketch refused to work ! Very odd.
+
+// Implements a simplex tranciver with very cheap ook modules.
+
 String inputString = "";         // a string to hold incoming data
 #include <RH_ASK.h>
 #include <SPI.h> // Not actually used but needed to compile
